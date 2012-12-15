@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <title>subdomain1</title>
+       <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+       <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+       <script type="text/javascript">
+         document.domain = 'herokuapp.com';
+    </script>
+   </head>
+   <body>
+    <iframe style="" src="http://subdomain2.herokuapp.com" width="500" height="50" id="subdomain2" name="subdomain2"></iframe>
+   </body>
+</html>
